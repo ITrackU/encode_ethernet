@@ -9,7 +9,6 @@ This repository contains Python implementations of various Ethernet encoding sch
 - [Project Overview](#project-overview)  
 - [Supported Encodings](#supported-encodings)  
 - [Features](#features)  
-- [Installation](#installation)  
 - [Usage](#usage)  
 - [Examples](#examples)  
 - [Contributing](#contributing)  
@@ -35,30 +34,14 @@ Ethernet communication relies on various encoding schemes to ensure reliable dat
 
 ## Features
 
-- Pure Python implementations for educational purposes  
+- Pure Python implementations
 - Waveform visualization using Matplotlib for each encoding  
 - Modular design for easy extension and testing  
 - Sample input data and corresponding encoded waveforms  
 
 ---
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/ethernet-encoders-python.git
-   cd ethernet-encoders-python
-    ```
-(Optional) Create and activate a virtual environment:
-
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-Install dependencies:
-
-    pip install -r requirements.txt
-
-Usage
+## Usage
 
 Each encoding module contains functions to encode a binary input string and generate a plot of the encoded signal.
 
@@ -76,12 +59,14 @@ plt.xlabel("Time")
 plt.ylabel("Signal Level")
 plt.show()
 
-Examples
+## Examples
 
 See the /examples directory for sample scripts demonstrating each encoder with visual output.
-Contributing
+
+## Contributing
 
 Contributions are welcome! Please open issues or submit pull requests for new encodings, bug fixes, or enhancements.
-License
+
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
